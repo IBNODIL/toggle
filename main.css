@@ -1,0 +1,39 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(28, 61, 116);
+}
+
+*{
+  transition: all 2s;
+}
+
+#toggle{
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: green;
+  border: 5px solid rgb(0, 93, 0);
+}
+
+#toggle-circle{
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 10;
+}
+
+.toggle-circle-animation{
+  transform: translateX(100px);
+}
+
+.red{
+  background-color: red !important;
+  border: 5px solid rgb(122, 0, 0) !important;
+}
